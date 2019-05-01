@@ -11,7 +11,7 @@ public class RateProvider {
     @GeneratedValue(strategy = GenerationType.AUTO,generator = "uiid")
     long id;
     private String name;
-    private String desc;
+    private String descryption;
 
     public RateProvider() {
     }
@@ -32,11 +32,11 @@ public class RateProvider {
         this.name = name;
     }
 
-    public String getDesc() {
-        return desc;
+    public String getDescryption() {
+        return descryption;
     }
 
-    public void setDesc(String desc) {
-        this.desc = desc;
+    public void setDescryption(String descryption) {
+        this.descryption = descryption;
     }
 }

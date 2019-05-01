@@ -15,7 +15,7 @@ public class Application {
 
     private String name;
 
-    private String desc;
+    private String descryption;
 
     public Application() {
     }
@@ -44,11 +44,11 @@ public class Application {
         this.name = name;
     }
 
-    public String getDesc() {
-        return desc;
+    public String getDescryption() {
+        return descryption;
     }
 
-    public void setDesc(String desc) {
-        this.desc = desc;
+    public void setDescryption(String descryption) {
+        this.descryption = descryption;
     }
 }

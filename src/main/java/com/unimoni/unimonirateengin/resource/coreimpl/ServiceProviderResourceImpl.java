@@ -10,6 +10,7 @@ import java.util.List;
 
 @Component
 public class ServiceProviderResourceImpl implements ServiceProviderResource {
+
     @Override
     public List<ServiceProviderResUI> getAll() {
         List<ServiceProviderResUI> serviceProviderResUIS=new ArrayList<>();
@@ -18,6 +19,7 @@ public class ServiceProviderResourceImpl implements ServiceProviderResource {
 
     @Override
     public ServiceProviderResUI save(ServiceProviderReqUI serviceProviderReqUI) {
+
         ServiceProviderResUI serviceProviderResUI=new ServiceProviderResUI();
         return serviceProviderResUI;
     }

@@ -13,7 +13,7 @@ public class ServiceProvider {
     long id;
     private String code;
     private String name;
-    private String desc;
+    private String descryption;
 
     public ServiceProvider() {
     }
@@ -42,11 +42,11 @@ public class ServiceProvider {
         this.name = name;
     }
 
-    public String getDesc() {
-        return desc;
+    public String getDescryption() {
+        return descryption;
     }
 
-    public void setDesc(String desc) {
-        this.desc = desc;
+    public void setDescryption(String descryption) {
+        this.descryption = descryption;
     }
 }

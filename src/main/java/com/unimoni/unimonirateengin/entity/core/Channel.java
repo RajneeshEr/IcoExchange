@@ -16,7 +16,7 @@ public class Channel {
 
     private String name;
 
-    private String desc;
+    private String descryption;
 
     public Channel() {
     }
@@ -45,11 +45,12 @@ public class Channel {
         this.name = name;
     }
 
-    public String getDesc() {
-        return desc;
+    public String getDescryption() {
+        return descryption;
     }
 
-    public void setDesc(String desc) {
-        this.desc = desc;
+    public void setDescryption(String descryption) {
+        this.descryption = descryption;
     }
+
 }

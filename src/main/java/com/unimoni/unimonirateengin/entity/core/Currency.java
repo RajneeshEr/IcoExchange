@@ -16,7 +16,7 @@ public class Currency {
     long id;
     private String code;
     private String name;
-    private String desc;
+    private String descryption;
     private boolean isOperation;
     private String status;
 
@@ -26,7 +26,7 @@ public class Currency {
     public Currency(CurrencyRequestUI currencyRequestUI) {
         this.name=currencyRequestUI.getName();
         this.code=currencyRequestUI.getCode();
-        this.desc=currencyRequestUI.getDesc();
+        this.descryption=currencyRequestUI.getDesc();
         this.isOperation=currencyRequestUI.isOperation();
         this.status=currencyRequestUI.getStatus();
     }
@@ -35,7 +35,7 @@ public class Currency {
         this.id=currencyResponseUI.getId();
         this.name=currencyResponseUI.getName();
         this.code=currencyResponseUI.getCode();
-        this.desc=currencyResponseUI.getDesc();
+        this.descryption=currencyResponseUI.getDesc();
         this.isOperation=currencyResponseUI.isOperation();
         this.status=currencyResponseUI.getStatus();
     }
@@ -56,12 +56,12 @@ public class Currency {
         this.name = name;
     }
 
-    public String getDesc() {
-        return desc;
+    public String getDescryption() {
+        return descryption;
     }
 
-    public void setDesc(String desc) {
-        this.desc = desc;
+    public void setDescryption(String descryption) {
+        this.descryption = descryption;
     }
 
     public boolean isOperation() {

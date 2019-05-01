@@ -20,7 +20,7 @@ public class CurrencyResponseUI {
         this.id=currency.getId();
         this.code=currency.getCode();
         this.name=currency.getName();
-        this.desc=currency.getDesc();
+        this.desc=currency.getDescryption();
         this.isOperation=currency.isOperation();
         this.status=currency.getStatus();
     }
